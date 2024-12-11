@@ -28,7 +28,7 @@ const MainTabs = () => (
   </Tab.Navigator>
 );
 
-const App = () => {
+export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Main">
@@ -42,6 +42,4 @@ const App = () => {
       </Stack.Navigator>
     </NavigationContainer>
   );
-};
-
-export default App;
+}
